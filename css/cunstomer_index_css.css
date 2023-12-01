@@ -1,0 +1,50 @@
+body{
+    background-image: linear-gradient(20deg, rgba(247, 116, 93, 0.65), rgba(254, 220, 64, 0.65));
+}
+
+#user{
+    margin-top: 10%;
+    margin-left: 9%;
+}
+
+#function_tab{
+    text-align: center;
+    margin-top: 3%;
+
+}
+
+#function_tab a {
+    display: inline-block;            /* インラインブロック化 */
+    border-radius: 0.75em;
+    padding: 0.75em 1em;              /* 内側の余白 */
+    text-decoration: none;            /* リンクの下線を消す */
+    text-align: center;
+    color: #ffffff;                     /* 文字色：黒色 */
+    font-weight: bold;
+    position: relative;               /* JavaScriptでz-indexを調整するために必要 */
+    border-color: #ffffff;
+}
+
+/* ▼タブの中身 */
+#function_tabbody div {
+    left: -5%;
+    position: relative;      /* z-indexを調整するために必要 */
+    z-index: 0;              /* 重なり順序を「最も背面」にするため */
+    margin-top: 5%;
+    padding-bottom: 100%;
+}
+/* ▼タブの配色 */
+#function_tab a:nth-child(1),#tabbody div:nth-child(1) { background-color: #ff8787; }/* 1つ目のタブとその中身用の配色 */
+#function_tab a:nth-child(2),#tabbody div:nth-child(2) { background-color: #ffae5e; }/* 2つ目のタブとその中身用の配色 */
+#function_tab a:nth-child(3),#tabbody div:nth-child(3) { background-color: #ff895e; }/* 3つ目のタブとその中身用の配色 */
+
+li{
+    list-style:none;
+    text-align: center;
+    padding: 4px 0;
+}
+
+#notice{
+    text-align: center;
+    padding-left: 8%;
+}

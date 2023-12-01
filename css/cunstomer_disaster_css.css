@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(20deg, rgba(247, 116, 93, 0.65), rgba(254, 220, 64, 0.65));
+}
+
+#user{
+    margin-top: 10%;
+    margin-left: 9%;
+}
+
+#back{
+    padding-top: 3%;
+    padding-left: 32%;
+}
+
+
+ul{
+    margin-top: 5%;
+    margin-left: -10%;
+    width: 100%;
+
+}
+
+li{
+    list-style:none;
+    text-align: center;
+}
