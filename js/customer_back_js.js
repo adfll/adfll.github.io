@@ -3,5 +3,5 @@ let back = document.getElementById("back");
 
 // 防災グッズのボタンをクリック
 back.addEventListener("click", () => {
-   location.href = "customer_index.html";
+   location.href = "index.html";
  });
